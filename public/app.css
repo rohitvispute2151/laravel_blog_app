@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(23,25,35);
+    color: white;
+    max-width: 720px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 1.5;
+}
+article + article{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid gray;
+}
+span{
+    font-size: 0.5rem;
+    color : gray;
+}
+a{
+    text-decoration: underline;
+    color: white;
+}
+.categoty_name{
+    text-decoration: none;
+    color: rgb(255, 255, 255,0.5);
+}
